@@ -62,9 +62,21 @@ public class GameOfLife {
 		In in = new In(fileName); // Constructs an In object for reading the input file
 		int rows = Integer.parseInt(in.readLine());
 		int cols = Integer.parseInt(in.readLine());
+		int aliveCells = 0;
+		int deadCells = 0;
 		int[][] board = new int[rows + 2][cols + 2];
-		//// Replace the following statement with your code.
-		return null;
+		int[][] newBoard = new int[rows + 2][cols + 2];
+		for(int i = 1; i <= rows; i++){
+			for(int j = 1; j <= cols; j++){
+				aliveCells = 0;
+				if(board[i][j] == 1){
+
+				}else{
+
+				}
+			}
+		}
+		return board;
 	}
 	
 	// Creates a new board from the given board, using the rules of the game.
