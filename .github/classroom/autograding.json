@@ -75,7 +75,7 @@
       "setup": "javac TesterGameOfLife.java",
       "run": "java TesterGameOfLife evolve square.dat",
       "input": "",
-      "output": "Generation 0:\n  0  0  0  0\n  0  1  1  0\n  0  1  1  0\n  0  0  0  0\nGeneration 1:\n  0  0  0  0\n  0  1  1  0\n  0  1  1  0\n  0  0  0  0\nGeneration 2:\n  0  0  0  0\n  0  1  1  0\n  0  1  1  0\n  0  0  0  0\n",
+      "output": "Generation 0:\n 0  0  0  0\n  0  1  1  0\n  0  1  1  0\n  0  0  0  0\nGeneration 1:\n 0  0  0  0\n  0  1  1  0\n  0  1  1  0\n  0  0  0  0\nGeneration 2:\n 0  0  0  0\n  0  1  1  0\n  0  1  1  0\n  0  0  0  0\n",
       "comparison": "exact",
       "timeout": 10,
       "points": 10
