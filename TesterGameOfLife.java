@@ -86,7 +86,7 @@ public class TesterGameOfLife {
 	private static void testEvolve(String fileName, int Ngen) {
 		int[][] board = GameOfLife.read(fileName);
 		for (int gen = 0; gen < Ngen; gen++) {
-			System.out.println("Generation " + gen + ":");
+			System.out.println("Generation " + gen + ":  ");
 			GameOfLife.print(board);
 			board = GameOfLife.evolve(board);
 		}
