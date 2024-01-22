@@ -75,8 +75,6 @@ public class GameOfLife {
 			String line = in.readLine();
 			if(line == null || line == "") continue;
 			char[] cells = line.toCharArray();
-			System.out.print(i);
-			System.out.print(line);
 			for(int j = 0; j < cells.length; j++){
 				if(cells[j] == 'x'){
 					board[i][j+1] = 1;
